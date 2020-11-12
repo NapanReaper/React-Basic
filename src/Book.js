@@ -3,7 +3,8 @@ import React from 'react'
 const Book = (props) => {
   const { img, title, author } = props
   const clickHandler = (e) => {
-    alert('I love you 3000')
+    console.log(e.target)
+    alert('Hello World')
   }
 
   return (
